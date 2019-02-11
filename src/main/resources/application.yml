@@ -1,0 +1,13 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
+      cluster-name: elasticsearch
+      repositories:
+        enabled: true
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
